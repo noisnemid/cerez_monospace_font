@@ -43,7 +43,7 @@ fontforge x version font exporting
 
         1 - old_em /new_em
 
-4.  ffxvfg.yml format:
+4.  ffxcfg.yml format:
 
         SOURCE_FILE: ./better_rel_path.sfd
         PRESET_HARD_CODED_UNDERLINE_THICKNESS: 91
@@ -68,7 +68,7 @@ yaml.indent(mapping=2, sequence=4, offset=2)
 
 
 class FontX():
-    def __init__(self, config_file: os.PathLike = './ffxvfg.yml'):
+    def __init__(self, config_file: os.PathLike = './ffxcfg.yml'):
         self.config_file = config_file
         self.working_dir = Path(self.config_file).parent
         with open(self.config_file, 'r', encoding='utf8') as yr:
