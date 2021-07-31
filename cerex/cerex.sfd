@@ -5,7 +5,7 @@ FamilyName: cerex
 Weight: Regular
 Copyright: GPL\nThis font is the X version(EM W:H=1:2) of cerez
 UComments: "This font is the X version(EM W:H+AD0A-1:2) of cerez"
-Version: 20210730.1
+Version: 20210731.1
 ItalicAngle: 0
 UnderlinePosition: -610
 UnderlineWidth: 91
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431127310
-ModificationTime: 1627656940
+ModificationTime: 1627723449
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -741,7 +741,7 @@ LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "GPL! Modify any thing as 
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
 BeginPrivate: 0
@@ -904,8 +904,8 @@ Width: 1302
 VWidth: 1911
 GlyphClass: 2
 Flags: W
-HStem: 517 188<151 359 567 735 943 1151> 913 188<151 359 567 735 943 1151>
-VStem: 359 208<309 517 705 913 1101 1309> 735 208<309 517 705 913 1101 1309>
+HStem: 517 182<151 359 567 735 943 1151> 919 182<151 359 567 735 943 1151>
+VStem: 359 208<309 517 699 919 1101 1309> 735 208<309 517 699 919 1101 1309>
 LayerCount: 2
 Fore
 SplineSet
@@ -913,10 +913,10 @@ SplineSet
  359 309 l 1,1,-1
  359 517 l 1,2,-1
  151 517 l 1,3,-1
- 151 705 l 1,4,-1
- 359 705 l 1,5,-1
- 359 913 l 1,6,-1
- 151 913 l 1,7,-1
+ 151 699 l 1,4,-1
+ 359 699 l 1,5,-1
+ 359 919 l 1,6,-1
+ 151 919 l 1,7,-1
  151 1101 l 1,8,-1
  359 1101 l 1,9,-1
  359 1309 l 1,10,-1
@@ -927,10 +927,10 @@ SplineSet
  943 1309 l 1,15,-1
  943 1101 l 1,16,-1
  1151 1101 l 1,17,-1
- 1151 913 l 1,18,-1
- 943 913 l 1,19,-1
- 943 705 l 1,20,-1
- 1151 705 l 1,21,-1
+ 1151 919 l 1,18,-1
+ 943 919 l 1,19,-1
+ 943 699 l 1,20,-1
+ 1151 699 l 1,21,-1
  1151 517 l 1,22,-1
  943 517 l 1,23,-1
  943 309 l 1,24,-1
@@ -938,11 +938,11 @@ SplineSet
  735 517 l 1,26,-1
  567 517 l 1,27,-1
  567 309 l 1,0,-1
-735 705 m 1,28,-1
- 735 913 l 1,29,-1
- 567 913 l 1,30,-1
- 567 705 l 1,31,-1
- 735 705 l 1,28,-1
+735 699 m 1,28,-1
+ 735 919 l 1,29,-1
+ 567 919 l 1,30,-1
+ 567 699 l 1,31,-1
+ 735 699 l 1,28,-1
 EndSplineSet
 Validated: 1
 EndChar
@@ -1853,8 +1853,8 @@ Width: 1302
 VWidth: 1488
 GlyphClass: 2
 Flags: W
-HStem: 0 182<151 605 813 1151> 1598 20G<422 813>
-VStem: 151 179<931.225 1015.02> 605 208<182 1312>
+HStem: 0 182<151 605 813 1151> 1598 20G<430 813>
+VStem: 151 176<932.953 1009.36> 605 208<182 1352>
 LayerCount: 2
 Back
 SplineSet
@@ -1917,10 +1917,10 @@ SplineSet
  151 0 l 1,3,-1
  151 182 l 1,4,-1
  605 182 l 1,5,-1
- 605 1312 l 1,6,7
- 392 1143 392 1143 330 854 c 1,8,-1
+ 605 1352 l 1,6,7
+ 424 1178 424 1178 327 874 c 1,8,-1
  151 939 l 1,9,10
- 239 1292 239 1292 605 1618 c 1,11,-1
+ 255 1324 255 1324 605 1618 c 1,11,-1
  813 1618 l 1,12,-1
  813 182 l 1,0,-1
 EndSplineSet
@@ -2398,8 +2398,8 @@ Width: 1302
 VWidth: 1667
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<510 738> 1254 364<151 359> 1436 182<359 877>
-VStem: 151 208<1254 1436> 510 228<0 754.086>
+HStem: 0 21G<510 738> 1254 364<151 359> 1436 182<359 897>
+VStem: 151 208<1254 1436> 510 228<0 729.682>
 LayerCount: 2
 Back
 SplineSet
@@ -2420,20 +2420,19 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-877 1435 m 5,0,1
- 359 1436 l 5,2,-1
- 359 1254 l 5,3,-1
- 151 1254 l 5,4,-1
- 151 1618 l 5,5,-1
- 1151 1618 l 5,6,-1
- 1151 1436 l 5,7,8
- 738 1140 738 1140 738 182 c 6,9,-1
- 738 0 l 5,10,-1
- 510 0 l 5,11,-1
- 510 182 l 6,12,13
- 510 1073 510 1073 877 1435 c 5,0,1
+897 1435 m 1,0,1
+ 359 1436 l 1,2,-1
+ 359 1254 l 1,3,-1
+ 151 1254 l 1,4,-1
+ 151 1618 l 1,5,-1
+ 1151 1618 l 1,6,-1
+ 1151 1436 l 1,7,8
+ 738 1122 738 1122 738 182 c 2,9,-1
+ 738 0 l 1,10,-1
+ 510 0 l 1,11,-1
+ 510 182 l 2,12,13
+ 510 1020 510 1020 897 1435 c 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight
@@ -3475,6 +3474,7 @@ SplineSet
  255 182 l 1,25,-1
  651 182 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: T
