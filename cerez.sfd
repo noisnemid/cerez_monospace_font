@@ -4,7 +4,7 @@ FullName: cerez
 FamilyName: cerez
 Weight: Regular
 Copyright: GPL
-Version: 20210814.1
+Version: 20210814.3
 ItalicAngle: 0
 UnderlinePosition: -539
 UnderlineWidth: 91
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431127310
-ModificationTime: 1628921548
+ModificationTime: 1628922452
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -736,7 +736,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "GPL! Modify any thing as you like!"
+LangName: 1033 "" "" "" "cerez" "" "" "" "" "" "cerez" "" "" "" "GPL! Modify any thing as you like!"
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
