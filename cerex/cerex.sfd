@@ -5,7 +5,7 @@ FamilyName: cerex
 Weight: Regular
 Copyright: GPL\nThis font is the X version(EM W:H=1:2) of cerez
 UComments: "This font is the X version(EM W:H+AD0A-1:2) of cerez"
-Version: 20210905
+Version: 20210909
 ItalicAngle: 0
 UnderlinePosition: -610
 UnderlineWidth: 91
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431127310
-ModificationTime: 1630771507
+ModificationTime: 1631188127
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
@@ -1853,8 +1853,8 @@ Width: 1302
 VWidth: 1488
 GlyphClass: 2
 Flags: W
-HStem: 0 182<155 679 887 1211> 1598 20G<662 897.847>
-VStem: 679 208<182 1375>
+HStem: 0 182<155 679 887 1211> 1598 20G<871.498 897.847>
+VStem: 679 208<182 1221>
 LayerCount: 2
 Back
 SplineSet
@@ -1911,19 +1911,18 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-887 182 m 1,0,-1
- 1211 182 l 1,1,-1
- 1211 0 l 1,2,-1
- 155 0 l 1,3,-1
- 155 182 l 1,4,-1
- 679 182 l 1,5,-1
- 679 1375 l 5,6,7
- 454 1254 454 1254 283 923 c 1,8,-1
- 91 1009 l 1,9,10
- 426 1618 426 1618 898 1618 c 1,11,-1
- 887 182 l 1,0,-1
+887 182 m 5,0,-1
+ 1211 182 l 5,1,-1
+ 1211 0 l 5,2,-1
+ 155 0 l 5,3,-1
+ 155 182 l 5,4,-1
+ 679 182 l 5,5,-1
+ 679 1221 l 5,6,-1
+ 283 923 l 5,7,-1
+ 91 1009 l 5,8,-1
+ 898 1618 l 5,9,-1
+ 887 182 l 5,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two
@@ -2268,23 +2267,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-1002 1457 m 4,0,1
- 476 1158 476 1158 331 446 c 4,2,-1
- 693 446 l 5,3,-1
- 693 967 l 5,4,-1
- 901 967 l 5,5,-1
- 901 446 l 5,6,-1
- 1191 446 l 5,7,-1
- 1191 264 l 5,8,-1
- 901 264 l 5,9,-1
- 901 0 l 5,10,-1
- 693 0 l 5,11,-1
- 693 264 l 5,12,-1
- 101 264 l 4,13,14
- 181 1197 181 1197 893 1618 c 4,15,-1
- 1002 1457 l 4,0,1
+943 1618 m 0,0,1
+ 413 447 l 0,2,-1
+ 733 446 l 1,3,-1
+ 733 967 l 1,4,-1
+ 941 967 l 1,5,-1
+ 941 446 l 1,6,-1
+ 1191 446 l 1,7,-1
+ 1191 264 l 1,8,-1
+ 941 264 l 1,9,-1
+ 941 0 l 1,10,-1
+ 733 0 l 1,11,-1
+ 733 264 l 1,12,-1
+ 101 264 l 0,13,14
+ 735 1618 l 0,15,-1
+ 943 1618 l 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: five
