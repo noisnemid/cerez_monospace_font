@@ -3,22 +3,21 @@ fontforge x version font exporting
 
 1.  What is an x version font?
 
-    In one word, an x version font is a font whose em-size's width-height ratio is 1:2, esp. compared to its original version.
+    In short, an x version font is a font whose em-size's width-height ratio is 1:2,
+    esp. compared to its original version.
 
 2.  Why to make an x version font?
 
-    When using reStructuredText, Markdown or other markup languages to write docs with table formats in it, monospace fonts with a EM-width-height ratio not equal to 1:2 will get messed up with CJK fonts.
+    When using reStructuredText, Markdown or other markup languages to write docs with table
+    formats in it, monospace fonts with a EM-width-height ratio not equal to 1:2 will get
+    messed up with CJK fonts.
 
-    After some digging, I found that Microsoft Visual Studio Code has a issue with rendering fonts, see the issue:
+    After some digging, I found that Microsoft Visual Studio Code has a issue with rendering fonts,
     
-        https://github.com/microsoft/vscode/issues/116997
-
-    (and there are many similar issues related to font rendering things).
-
-    It's said that all font rendering in the editor is delegated to Chromium, and this is an upstream issue.
-    
-    But I don't think chromium will resolve this issue quickly.
-    So I figure out an alternative:
+    see https://github.com/microsoft/vscode/issues/116997 , and there are many similar issues
+    related to font rendering things. It said that all font rendering in the editor is delegated
+    to Chromium, and this is an upstream issue. But I don't think chromium will resolve this issue
+    quickly. So I figure out an alternative:
 
     By using the font-fallback mechanics, set the font config of VSCode to:
 
@@ -37,9 +36,13 @@ fontforge x version font exporting
 3.  Is there any side-effects?
 
     Yes.
-    The x version will be a little thinner than the original font when they are set to the same font size, and the factor could be precisely calculated.
 
-    You could consider that in both directions(x,y) the line width is shrunk to by a value, which is:
+    The x version will be a little thinner than the original font
+    when they are set to the same font size, and the factor could
+    be precisely calculated.
+
+    You could consider that in both directions(x,y) the line width
+    is shrunk to by a value, which is:
 
         1 - old_em /new_em
 
@@ -88,7 +91,6 @@ class FontX():
         self.font = fontforge.open(os.path.abspath(self.target_source_file))
 
         self.modify()
-        self.install()
 
     def modify(self):
         self.old_name = self.font.fontname
@@ -132,3 +134,4 @@ class FontX():
 
 if __name__ == "__main__":
     x = FontX()
+    # x.install()
