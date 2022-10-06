@@ -10,10 +10,10 @@ README
     :keywords: README
 
 :Date:      2021-06-08 11:43:41
-:From:      Internet
-:Author:    Internet
+:From:      NOISNEMID
+:Author:    NOISNEMID
 
-cere\* 系列字体主要用于代码书写，其设计理念为：
+Cere\* 系列字体主要用于代码书写，其设计理念为：
 
 -   极简风格，尽量少的细节
 -   易混淆字符具有极高的可辨识度
