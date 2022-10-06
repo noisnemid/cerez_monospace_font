@@ -38,7 +38,7 @@ CEREZ/CEREX等宽字体专为解决其它等宽字体中那些令人抓狂的不
 
 同时，专门为适配VsCode中CJK字符混排而专门匹配了X版（CEREX，此版本由Python脚本根据比例精确计算后调用FontForge接口生成）。
 
-.. image:: ./Screenshot.Cerez.png
+.. image:: Screenshot.Cerez.png
     :alt: cerez_monospace_font_screenshot
 
 蓝本
