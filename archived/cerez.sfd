@@ -4,7 +4,7 @@ FullName: cerez
 FamilyName: cerez
 Weight: Regular
 Copyright: GPL
-Version: 20221005
+Version: 20240921
 ItalicAngle: 0
 UnderlinePosition: -539
 UnderlineWidth: 91
@@ -22,13 +22,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431127310
-ModificationTime: 1664907275
+ModificationTime: 1726938335
 PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-Panose: 2 0 5 9 6 0 0 8 0 4
+Panose: 2 15 5 9 2 2 3 2 2 4
 OS2TypoAscent: 1709
 OS2TypoAOffset: 0
 OS2TypoDescent: -630
@@ -44,9 +44,10 @@ HheadDescent: -630
 HheadDOffset: 0
 OS2CapHeight: 1618
 OS2XHeight: 1079
+OS2FamilyClass: 1285
 OS2Vendor: 'crz '
-OS2CodePages: 6000019f.dfd70000
-OS2UnicodeRanges: e00006ff.0000fcff.00000001.00000000
+OS2CodePages: 00000000.00000000
+OS2UnicodeRanges: 00000001.00000000.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -743,7 +744,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 39 16
+WinInfo: 0 11 8
 BeginPrivate: 0
 EndPrivate
 Grid
