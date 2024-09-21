@@ -102,6 +102,9 @@ Version 20240921-22
 #.  原工程全部归档。
 #.  使用Font Creator根据最后版本重新修正一些元数据后导出。
 #.  此次更新目的是解决某些IDE无法正确识别到Cerez/Cerex字体的问题。
+
+    经过实验初步判断是由于字体元数据设置上的一些细节，具体哪些参数所造成的影响暂时无法确定，目前发现的是字体族类（在font creator中被识别为两个参数，即slab serifs / typerwriter，在font forge中被识别为sstyperwirter）。如有哪位高手知道具体怎样通过设置font forge参数使字体被正确识别为等宽字体请不吝赐教！
+
 #.  后续的修改将会是重新修正EM-Size。字体框架基本不会再动。
 
 
